@@ -24,7 +24,7 @@ public class DemoApplication {
 	private void executeInsert(){
 		Member member = new Member(null,"이순신");
 		member = repository.save(member);
-		System.out.println("등록 데이터 : " + member);
+		System.out.println("등록 데이터 : " + member); //결과를 표시
 	}
 
 	private void executeSelect() {
