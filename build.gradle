@@ -25,6 +25,9 @@ dependencies {
 	runtimeOnly 'org.postgresql:postgresql'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'org.thymeleaf:thymeleaf:3.1.0.RELEASE'
+	implementation 'com.coder4j:keller-fast-springweb:1.0.0'
+	implementation 'com.codingapi.springboot:springboot-framework:1.0.5'
 }
 
 tasks.named('test') {
